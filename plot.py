@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+plt.title('Accuracy Plot')
+plt.xlabel('Epochs')
+plt.ylabel('Accuracy')
+plt.plot([1, 2, 3, 4, 5, 6, 7,8,9,10,11,12,13,14,15,16,17,18,19,20], [0.6609,0.7,0.72,0.76,0.8,0.84,0.85,0.86,0.87,0.87,0.88,0.88,0.89,0.89,0.89,0.9,0.9,0.9,0.9,0.9])
+plt.axis([0, 21, 0.66, 0.91])
+plt.savefig('Accuracy Plot')
+plt.show()
+
+plt.title('Loss Plot')
+plt.xlabel('Epochs')
+plt.ylabel('Loss')
+plt.plot([1, 2, 3, 4, 5, 6, 7,8,9,10,11,12,13,14,15,16,17,18,19,20], [0.3391,0.3,0.28,0.24,0.2,0.16,0.15,0.14,0.13,0.13,0.12,0.12,0.11,0.11,0.11,0.1,0.1,0.1,0.1,0.1])
+plt.axis([0, 21, 0, 0.35])
+plt.savefig('Loss Plot')
+plt.show()
